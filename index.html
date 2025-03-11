@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tast</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add" />
+    <title>TrelloX</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>TrelloX</h1>
+    </div>
+
+    <div class="container columns">
+        <div class="colums">
+            <div class="column-title">
+               <h3 data-tasks="0">To Do</h3>
+               <button data-add><span class="material-symbols-outlined">
+                add
+                </span></button>
+            </div>
+            <div class="tasks"></div>
+        </div>
+        <div class="colums">
+            <div class="column-title">
+               <h3 data-tasks="0">In Progress</h3>
+               <button data-add><span class="material-symbols-outlined">
+                add
+                </span></button>
+            </div>
+            <div class="tasks"></div>
+        </div>
+        <div class="colums">
+            <div class="column-title">
+               <h3 data-tasks="0">Done</h3>
+               <button data-add><span class="material-symbols-outlined">
+                add
+                </span></button>
+            </div>
+            <div class="tasks"></div>
+        </div>
+    </div>
 </body>
 </html>
